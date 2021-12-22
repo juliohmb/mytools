@@ -63,4 +63,4 @@ cat Subdomain_final.txt | sort -u | httprobe | sed -E 's/^\s*.*:\/\///g' | sort 
 echo
 
 echo "taking screenshots"
-EyeWitness.py -f alive.txt --web -d eyewitness --resolve
+eyewitness -f alive.txt --web -d eyewitness --resolve
